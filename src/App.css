@@ -1,0 +1,57 @@
+.App {
+  height: auto;
+  width: auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  padding: 0%;
+  margin: 0%;
+  background-color: rgb(176, 239, 255);
+  align-items: center;
+}
+
+.cryptoHeader {
+  width: 100%;
+  height: 200px;
+  background-color: rgb(56, 83, 233);
+  justify-content: center;
+  align-items: center;
+}
+
+.title{
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.searchBox{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cryptoHeader input {
+  width: 50%;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin-top: 10px;
+}
+
+.cryptoDisplay {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.top{
+  background-color: rgb(3, 3, 3);
+}
